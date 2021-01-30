@@ -1,0 +1,54 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Roboto', sans-serif;
+	font-size:15px;
+}
+body{
+	background-color:rgb(190, 235, 230) ;
+}
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+  
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+.Name,.Username,.Email,.Password,.phone{
+	height: 25px;
+    width: 217px;
+}
+.buton{   
+    height: 40px;
+    width: 139px;
+	border-radius: 10px;
+	}
+	li{
+		list-style:none;
+	}
+	.buton2{   
+    height: 40px;
+    width: 180px;
+	border-radius: 10px;
+	   
+	}
+	form{    margin: 88px 0px 0px 337px;}
+	ul{margin: 205px 0px 0px 60px;}
+	.buton:hover{
+		color:white;
+		background-color:red;
+	}
+		.buton2:hover{
+		color:white;
+		background-color:aqua;
+	}
+	.vl {
+  border-left: 6px solid green;
+  height: 300px;
+  margin-top: 132px;
+}
